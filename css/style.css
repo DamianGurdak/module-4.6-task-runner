@@ -1,9 +1,13 @@
 .splash {
-  background-image: url(https://images.pexels.com/photos/68438/pexels-photo-68438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
 }
 
 h4 {
   color: red;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGlJQUFBO0FDQ0o7O0FEQ0E7RUFDSSxVQUFBO0FDRUoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+span {
+  color: red;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGlJQUFBO0FDQ0Q7O0FEQ0E7RUFDQyxVQUFBO0FDRUQ7O0FEQUE7RUFDQyxVQUFBO0FDR0QiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
