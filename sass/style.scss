@@ -1,9 +1,72 @@
 .splash {
 	background-image: url(https://images.pexels.com/photos/68438/pexels-photo-68438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
-h4 {
-	color: red;
+/* VARIABLES */
+
+$color-one: #bdc3c7;		//silver
+$color-two: #f1c40f;		//yellow
+$color-three: #2d3436;		//black
+$color-four: #f5f6fa;		//white
+
+$font-family: 'Inconsolata';
+
+/* GLOBAL */
+
+/* SECTION WELCOMWE */
+/* SECTION SERVICES */
+.services .row div {
+	border: 1px solid red;
 }
-span {
-	color: red;
+.services {
+	background-color: $color-four;
 }
+
+.services .page-title {
+	text-align: center;
+}
+
+.row-2 {
+	justify-content: space-around;
+}
+
+.icona {
+	color: $color-two;
+	font-size: 40px;
+	border: 4px solid $color-two;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.box {
+	text-align: center;
+}
+/* SECTION PORTFOLIO */
+
+/* FOOTER */
+
+.page-footer {
+	background-color: $color-one;
+	padding: 30px;	
+}
+
+// .page-footer p {
+	
+// }
+
+.icon {
+	text-align: center;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+.icon li {
+	color: $color-four;
+	background-color: $color-three;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
