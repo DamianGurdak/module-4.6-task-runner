@@ -7,6 +7,7 @@ $color-one: #bdc3c7;		//silver
 $color-two: #f1c40f;		//yellow
 $color-three: #2d3436;		//black
 $color-four: #f5f6fa;		//white
+$color-five: #f7f1e3;		//swan white
 
 $font-family: 'Inconsolata';
 
@@ -14,15 +15,18 @@ $font-family: 'Inconsolata';
 
 /* SECTION WELCOMWE */
 /* SECTION SERVICES */
-.services .row div {
-	border: 1px solid red;
-}
+
+// .services .row div {
+// 	border: 1px solid red;
+// }
 .services {
 	background-color: $color-four;
+	padding: 100px;
 }
 
-.services .page-title {
+.page-title {
 	text-align: center;
+	margin-bottom: 80px;
 }
 
 .row-2 {
@@ -41,6 +45,22 @@ $font-family: 'Inconsolata';
 	text-align: center;
 }
 /* SECTION PORTFOLIO */
+
+.image {
+	background-color: $color-five;
+	padding: 100px;
+}
+
+// .image .row div {
+// 	border: 1px solid red;
+// }
+
+.box img {
+	// object-fit: cover;		// nie dizła dlaczego
+	height: 100%;				// czy to cos zmienia
+	width: 100%;
+}
+
 
 /* FOOTER */
 
