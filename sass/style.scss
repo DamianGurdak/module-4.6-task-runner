@@ -1,6 +1,4 @@
-.splash {
-	background-image: url(https://images.pexels.com/photos/68438/pexels-photo-68438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-}
+
 /* VARIABLES */
 
 $color-one: #bdc3c7;		//silver
@@ -14,6 +12,42 @@ $font-family: 'Inconsolata';
 /* GLOBAL */
 
 /* SECTION WELCOMWE */
+
+.splash {
+	background-image: url(https://images.pexels.com/photos/1012982/pexels-photo-1012982.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.splash-inner {
+	text-align: center;
+	padding: 80px;
+	color: white
+}
+
+.splash-inner h4 {
+	font-size: 30px;
+}
+
+.splash-inner h1 {
+	font-size: 80px;
+	margin: 0 0 50px 0
+}
+
+.splash-inner button {
+	background-color: $color-two;
+	padding: 20px 40px;
+	font-size: 20px;
+	color: $color-four;
+	border-radius: 10%;
+	border: none;
+}
+
+.navbar {
+	text-align: center;
+}
+
 /* SECTION SERVICES */
 
 // .services .row div {
@@ -43,6 +77,7 @@ $font-family: 'Inconsolata';
 
 .box {
 	text-align: center;
+	margin-bottom: 60px;
 }
 /* SECTION PORTFOLIO */
 
@@ -51,15 +86,33 @@ $font-family: 'Inconsolata';
 	padding: 100px;
 }
 
+.row {
+	justify-content: space-around;
+}
+
+.box-title {
+	background-color: white;
+	margin-top: -25px;
+	padding: 20px;
+}
+
 // .image .row div {
 // 	border: 1px solid red;
 // }
 
 .box img {
-	// object-fit: cover;		// nie dizła dlaczego
-	height: 100%;				// czy to cos zmienia
+	object-fit: cover;		// nie dizła dlaczego
+	height: 400px;				// czy to cos zmienia jak 100%
 	width: 100%;
 }
+
+.box h1 {
+	font-size: 20px ;
+	// padding-top: 20px;
+	margin-bottom: 5px;
+}
+
+
 
 
 /* FOOTER */
@@ -70,7 +123,7 @@ $font-family: 'Inconsolata';
 }
 
 // .page-footer p {
-	
+// 	// margin-right: 60px;
 // }
 
 .icon {
@@ -78,6 +131,7 @@ $font-family: 'Inconsolata';
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
+	
 }
 
 .icon li {
@@ -90,3 +144,10 @@ $font-family: 'Inconsolata';
 	margin-right: 15px;
 }
 
+.footer-icon {
+	width: 300px;
+}
+
+.footer-text {
+	width: 300px;
+}
