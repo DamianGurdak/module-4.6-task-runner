@@ -1,13 +1,12 @@
-
 /* VARIABLES */
 
-$color-one: #bdc3c7;		//silver
-$color-two: #f1c40f;		//yellow
-$color-three: #2d3436;		//black
-$color-four: #f5f6fa;		//white
-$color-five: #f7f1e3;		//swan white
+$color-one: #bdc3c7; //silver
+$color-two: #f1c40f; //yellow
+$color-three: #2d3436; //black
+$color-four: #f5f6fa; //white
+$color-five: #f7f1e3; //swan white
 
-$font-family: 'Inconsolata';
+$font-family: "Inconsolata";
 
 /* GLOBAL */
 
@@ -23,7 +22,7 @@ $font-family: 'Inconsolata';
 .splash-inner {
 	text-align: center;
 	padding: 80px;
-	color: white
+	color: red;
 }
 
 .splash-inner h4 {
@@ -32,7 +31,7 @@ $font-family: 'Inconsolata';
 
 .splash-inner h1 {
 	font-size: 80px;
-	margin: 0 0 50px 0
+	margin: 0 0 50px 0;
 }
 
 .splash-inner button {
@@ -86,9 +85,9 @@ $font-family: 'Inconsolata';
 	padding: 100px;
 }
 
-.row {
-	justify-content: space-around;
-}
+// .row {
+// 	justify-content: space-around;
+// }
 
 .box-title {
 	background-color: white;
@@ -101,25 +100,22 @@ $font-family: 'Inconsolata';
 // }
 
 .box img {
-	object-fit: cover;		// nie dizła dlaczego
-	height: 400px;				// czy to cos zmienia jak 100%
+	object-fit: cover; // nie dizła dlaczego
+	height: 400px; // czy to cos zmienia jak 100%
 	width: 100%;
 }
 
 .box h1 {
-	font-size: 20px ;
+	font-size: 20px;
 	// padding-top: 20px;
 	margin-bottom: 5px;
 }
-
-
-
 
 /* FOOTER */
 
 .page-footer {
 	background-color: $color-one;
-	padding: 30px;	
+	padding: 30px;
 }
 
 // .page-footer p {
@@ -131,7 +127,6 @@ $font-family: 'Inconsolata';
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
-	
 }
 
 .icon li {
@@ -142,12 +137,4 @@ $font-family: 'Inconsolata';
 	line-height: 40px;
 	border-radius: 50%;
 	margin-right: 15px;
-}
-
-.footer-icon {
-	width: 300px;
-}
-
-.footer-text {
-	width: 300px;
 }
